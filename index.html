@@ -1,32 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>&lt;model-viewer&gt; template</title>
-    <meta charset="utf-8">
-    <meta name="description" content="&lt;model-viewer&gt; template">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" href="./styles.css" rel="stylesheet"/>
-    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
-    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
-  </head>
-  <body>
-    <!-- <model-viewer> HTML element -->
-    <model-viewer src="pizza.glb" camera-controls ar-modes="scene-viewer webxr quick-look" environment-image="feature_-_Main_hall_1.jpg" skybox-image="feature_-_Main_hall_1.jpg" camera-orbit="832.8deg 57.06deg 66.78m" poster="poster.png" auto-rotate ios-src="Pizza.usdz" xr-environment>
-      <button class="Hotspot" slot="hotspot-1" data-position="-8.975514117205137m 1.0799703343210345m -24.684470154645716m" data-normal="-0.2186190192712302m 0.5724690673537959m -0.7902435645647236m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">Atrás al Menú</div>
-      </button>
-      <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-      <div id="ar-prompt">
-          <img src="ar_hand_prompt.png">
-      </div>
-    </model-viewer>  
-    <script src="script.js"></script>
-    <!-- Loads <model-viewer> for browsers: -->
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_carne.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Carnes</title>
+</head>
+<body>
+     <div class="menu">
+        <div class="heading">
+            <h1>FRANZINI'S RESTAURANTE</h1>
+            <h2>&mdash; CARNES &mdash;</h2>
+        </div>
+
+        <div class="food-items">
+            <a href="index2.html" id="atras">VOLVER AL MENU</a>
+            <img src="assets/imgcarnes/1.png">
+            <div class="details">
+                <div class="details-sub">
+                    <h3> Carne Asada Steak Beef</h3>
+                    <h3 class="price">   $8.900 </h3>
+                </div>
+                <div class="abajo">
+                    <p>Lorem ipsum dolor sit amet consectetur asdasasdasd sadas dasdsa dsadasd </p>
+                   <a href="container.html">Ver en Realidad Aumentada</a>
+                </div>
+            </div>
+        </div>
+        <div class="food-items">
+            <a href="container.html" id="atras">VOLVER AL MENU</a>
+            <img src="assets/imgcarnes/2.png">
+            <div class="details">
+                <div class="details-sub">
+                    <h3> Carne Asada Steak Beef</h3>
+                    <h3 class="price">   $8.900 </h3>
+                </div>
+                <div class="abajo">
+                    <p>Lorem ipsum dolor sit amet consectetur asdasasdasd sadas dasdsa dsadasd </p>
+                   <a href="container.html">Ver en Realidad Aumentada</a>
+                </div>
+            </div>
+        </div>
+        <div class="food-items">
+            <a href="index.html" id="atras">VOLVER AL MENU</a>
+            <img src="assets/imgcarnes/3.png">
+            <div class="details">
+                <div class="details-sub">
+                    <h3> Carne Asada Steak Beef</h3>
+                    <h3 class="price">   $8.900 </h3>
+                </div>
+                <div class="abajo">
+                    <p>Lorem ipsum dolor sit amet consectetur asdasasdasd sadas dasdsa dsadasd </p>
+                    <span class="rate"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span>
+                </div>
+            </div>
+        </div>
+        <div class="food-items">
+            <a href="index.html" id="atras">VOLVER AL MENU</a>
+            <img src="assets/imgcarnes/4.png">
+            <div class="details">
+                <div class="details-sub">
+                    <h3> Carne Asada Steak Beef</h3>
+                    <h3 class="price">   $8.900 </h3>
+                </div>
+                <div class="abajo">
+                    <p>Lorem ipsum dolor sit amet consectetur asdasasdasd sadas dasdsa dsadasd </p>
+                    <a href="#">Ver en Realidad Aumentada</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+     </div>
+
+
+    
+</body>
 </html>
