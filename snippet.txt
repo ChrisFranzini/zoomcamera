@@ -1,0 +1,14 @@
+<model-viewer src="pizza.glb" camera-controls ar-modes="scene-viewer webxr quick-look" environment-image="feature_-_Main_hall_1.jpg" skybox-image="feature_-_Main_hall_1.jpg" camera-orbit="832.8deg 57.06deg 66.78m" poster="poster.png" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-8.975514117205137m 1.0799703343210345m -24.684470154645716m" data-normal="-0.2186190192712302m 0.5724690673537959m -0.7902435645647236m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Atrás al Menú</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
